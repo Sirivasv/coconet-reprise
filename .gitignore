@@ -1,8 +1,6 @@
-data/
 .vscode/
 */__pycache__/
 checkpoint.zip
-data/
 checkpoint/
 .vscode/
 __pycache__

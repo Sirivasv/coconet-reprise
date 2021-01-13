@@ -137,13 +137,13 @@ def get_fold_pianorolls(fold, hparams):
   print_statistics(pianorolls)
   if FLAGS.fold_index is not None:
     pianorolls = [pianorolls[int(FLAGS.fold_index)]]
-  return pianorolls[:7]
+  return pianorolls[:5]
 
 
 def get_path_pianorolls(path):
   pianoroll_fpath = os.path.join(tf.resource_loader.get_data_files_path(), path)
   tf.logging.info('Retrieving pianorolls from %s', pianoroll_fpath)
-  with tf.gfile.Open(pianoroll_fpath, 'r') as p:
+  with tf.gfile.Open(pianoroll_fpath, 'rb') as p:
     pianorolls = np.load(p)
   if isinstance(pianorolls, np.ndarray):
     tf.logging.info(pianorolls.shape)

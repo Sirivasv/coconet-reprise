@@ -1,0 +1,33 @@
+MODEL
+- RANDOM
+
+INFO:tensorflow:4  4.66min  loss mean/sem:  0.72306+- 0.03901 0.00215 < 0.31678 < 0.55629 < 0.93201 < 3.7185
+INFO:tensorflow:FINAL example-level  loss mean/sem:  0.90376+- 0.05634 0.72306 < 0.82189 < 0.92867 < 0.94794 < 1.0972
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  0.90118+- 0.03873 0.00215 < 0.37850 < 0.60192 < 0.94151 < 10.921
+INFO:tensorflow:Writing to path: /home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/eval_logdir/eval_stats/__eval_20210112132907_valid_frame_ensemble5_chronoFalse.npz
+/home/sirivasv/miniconda3/envs/ccnet_ref/lib/python3.6/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+INFO:tensorflow:Done
+
+- Chronological
+
+INFO:tensorflow:4  4.68min  loss mean/sem:  2.45440+- 0.27128 0.00470 < 0.03397 < 0.36588 < 3.48713 < 21.21
+INFO:tensorflow:FINAL example-level  loss mean/sem:  2.66628+- 0.07681 2.45440 < 2.56154 < 2.58929 < 2.79893 < 2.9272
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  2.65852+- 0.12602 0.00325 < 0.03273 < 0.49007 < 4.19915 < 23.428
+INFO:tensorflow:Writing to path: /home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/eval_logdir/eval_stats/__eval_20210112140532_valid_frame_ensemble5_chronoTrue.npz
+/home/sirivasv/miniconda3/envs/ccnet_ref/lib/python3.6/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+INFO:tensorflow:Done
+
+
+SAMPLES
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.46849+- 0.37163 0.36566 < 0.61765 < 1.80814 < 2.05802 < 2.493
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.46849+- 0.25169 0.00404 < 0.50595 < 0.74516 < 1.46355 < 15.932
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112180926_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  3.27262+- 0.69641 1.04945 < 2.26702 < 3.47091 < 3.91046 < 5.6653
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  3.27262+- 0.52958 0.03167 < 0.18099 < 0.39952 < 5.41823 < 19.236
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112181114_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done

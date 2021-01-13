@@ -19,10 +19,10 @@ from __future__ import print_function
 
 import time
 
-from magenta.models.coconet import lib_graph
-from magenta.models.coconet import lib_hparams
+import lib_graph
+import lib_hparams
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -339,5 +339,5 @@ def main(unused_argv):
 
 
 if __name__ == "__main__":
-  tf.disable_v2_behavior()
+  # tf.disable_v2_behavior()
   tf.app.run()

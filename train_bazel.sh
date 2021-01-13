@@ -18,9 +18,9 @@ set -x
 set -e
 
 # Change this to directory where you want to save experiment logs:
-logdir=/home/sirivasv/Documents/projects/magenta/magenta/models/coconet/logs
+logdir=./logs
 # Change this to directory where data is loaded from:
-data_dir=/home/sirivasv/Documents/projects/magenta/magenta/models/coconet/data/
+data_dir=./data/
 # Change this to your dataset class, which can be defined in lib_data.py.
 dataset=Jsb16thSeparated
 

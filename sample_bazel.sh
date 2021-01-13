@@ -22,14 +22,14 @@ set -e
 # http://download.magenta.tensorflow.org/models/coconet/checkpoint.zip
 # and pass the path up to the inner most directory as first argument when running this
 # script.
-checkpoint=$1
+checkpoint=./logs/'dilated-9-64_bs=10,corrupt=0.5,len=32,lr=0.0625,mm=orderless,nreg_conv=2,num_i=4,n_pch=46,mask_only=False,quant=0.125,rescale=True,depth_mul=1,sep=True,res=True,sconv=True,soft=True'/
 
 # Change this to path for saving samples.
-generation_output_dir=$HOME/samples
+generation_output_dir=./GeneratedMidis/
 
 # Generation parameters.
 # Number of samples to generate in a batch.
-gen_batch_size=2
+gen_batch_size=5
 piece_length=16
 strategy=igibbs
 tfsample=true

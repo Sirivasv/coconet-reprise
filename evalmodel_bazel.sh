@@ -27,13 +27,13 @@ set -e
 # WRKSTATION
 # checkpoint=/home/sirivasv/Documents/projects/magenta/magenta/models/coconet/logs/'dilated-9-64_bs=10,corrupt=0.5,len=32,lr=0.0625,mm=orderless,nreg_conv=2,num_i=4,n_pch=46,mask_only=False,quant=0.125,rescale=True,depth_mul=1,sep=True,res=True,sconv=True,soft=True'/
 # LAP
-checkpoint=/home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/logs/'dilated-9-64_bs=10,corrupt=0.5,len=32,lr=0.0625,mm=orderless,nreg_conv=2,num_i=4,n_pch=46,mask_only=False,quant=0.125,rescale=True,depth_mul=1,sep=True,res=True,sconv=True,soft=True'/
+checkpoint=./logs/'dilated-9-64_bs=10,corrupt=0.5,len=32,lr=0.0625,mm=orderless,nreg_conv=2,num_i=4,n_pch=46,mask_only=False,quant=0.125,rescale=True,depth_mul=1,sep=True,res=True,sconv=True,soft=True'/
 
 # Change this to where data is loaded from.
 # WRKSTATION
 # data_dir=/home/sirivasv/Documents/projects/magenta/magenta/models/coconet/data/
 #LAP
-data_dir=/home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/data/
+data_dir=./data/
 
 # Change this to where evaluation results are stored.
 # WRKSTATION
@@ -45,7 +45,7 @@ eval_logdir=/home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/eva
 fold=valid
 fold_index=1  # Optionally can specify index of specific piece to be evaluated.
 unit=frame
-chronological=false
+chronological=True
 ensemble_size=5  # Number of different orderings to average.
 
 # Run command.
