@@ -23,12 +23,72 @@ INFO:tensorflow:Done
 SAMPLES
 ++ IGIBSS ++
 - Random
-INFO:tensorflow:FINAL example-level  loss mean/sem:  1.46924+- 0.06008 0.50236 < 1.03858 < 1.33378 < 1.78255 < 3.0188
-INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.46924+- 0.04925 0.00397 < 0.45813 < 0.84595 < 1.59957 < 18.043
-INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112204116_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.10229+- 0.03835 0.37437 < 0.80016 < 1.03861 < 1.30019 < 2.3886
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.10229+- 0.02840 0.00058 < 0.34703 < 0.61755 < 1.04586 < 16.675
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112222521_frame_ensemble5_chronoFalse.npz
 INFO:tensorflow:Done
 - Chronological
-INFO:tensorflow:FINAL example-level  loss mean/sem:  3.39259+- 0.10463 1.09085 < 2.63933 < 3.33703 < 4.12906 < 5.6139
-INFO:tensorflow:FINAL unit-level  loss mean/sem:  3.39259+- 0.11751 0.01025 < 0.19154 < 0.59627 < 5.65605 < 24.265
-INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112203749_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:FINAL example-level  loss mean/sem:  2.69458+- 0.08455 0.61992 < 2.18657 < 2.72746 < 3.26610 < 5.0253
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  2.69458+- 0.07305 0.00180 < 0.12520 < 0.39992 < 4.31016 < 23.086
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112223935_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done
+
+++ AGIBSS 0.0 ++
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.14779+- 0.03795 0.49908 < 0.86113 < 1.12056 < 1.38071 < 2.5835
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.14779+- 0.02842 0.00026 < 0.36857 < 0.65136 < 1.12890 < 15.414
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112232728_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  2.86506+- 0.07881 1.17166 < 2.39140 < 2.86810 < 3.36217 < 4.9
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  2.86506+- 0.07410 0.00133 < 0.11715 < 0.44715 < 4.64233 < 27.106
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112231155_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done
+
+++ AGIBSS 0.05 ++
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.18149+- 0.03369 0.42518 < 0.93996 < 1.18105 < 1.40142 < 2.3081
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.18149+- 0.02956 0.00198 < 0.37335 < 0.69033 < 1.12897 < 16.748
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112234850_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  2.96006+- 0.07270 0.67996 < 2.46839 < 2.97826 < 3.40823 < 4.9562
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  2.96006+- 0.07362 0.00203 < 0.10477 < 0.52721 < 4.85902 < 26.43
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210113000753_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done
+
+####################
+
+++ AGIBSS 0.10 ++
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.46538+- 0.06059 0.46542 < 1.03795 < 1.39230 < 1.78835 < 3.2272
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.46538+- 0.04804 0.00262 < 0.45960 < 0.85783 < 1.56230 < 17.363
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112215655_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  3.26374+- 0.11970 1.04302 < 2.29417 < 3.34207 < 4.07772 < 6.1727
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  3.26374+- 0.11603 0.00871 < 0.18775 < 0.60760 < 5.33681 < 26.41
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112213108_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done
+++ AGIBSS 0.25 ++
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.46538+- 0.06059 0.46542 < 1.03795 < 1.39230 < 1.78835 < 3.2272
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.46538+- 0.04804 0.00262 < 0.45960 < 0.85783 < 1.56230 < 17.363
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112215655_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  3.26374+- 0.11970 1.04302 < 2.29417 < 3.34207 < 4.07772 < 6.1727
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  3.26374+- 0.11603 0.00871 < 0.18775 < 0.60760 < 5.33681 < 26.41
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112213108_frame_ensemble5_chronoTrue.npz
+INFO:tensorflow:Done
+++ AGIBSS 0.5 ++
+- Random
+INFO:tensorflow:FINAL example-level  loss mean/sem:  1.46538+- 0.06059 0.46542 < 1.03795 < 1.39230 < 1.78835 < 3.2272
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  1.46538+- 0.04804 0.00262 < 0.45960 < 0.85783 < 1.56230 < 17.363
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112215655_frame_ensemble5_chronoFalse.npz
+INFO:tensorflow:Done
+- Chronological
+INFO:tensorflow:FINAL example-level  loss mean/sem:  3.26374+- 0.11970 1.04302 < 2.29417 < 3.34207 < 4.07772 < 6.1727
+INFO:tensorflow:FINAL unit-level  loss mean/sem:  3.26374+- 0.11603 0.00871 < 0.18775 < 0.60760 < 5.33681 < 26.41
+INFO:tensorflow:Writing evaluation statistics to eval_logdir/eval_stats/generated_result__eval_samples_20210112213108_frame_ensemble5_chronoTrue.npz
 INFO:tensorflow:Done

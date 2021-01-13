@@ -30,8 +30,8 @@ generation_output_dir=./GeneratedMidis/
 # Generation parameters.
 # Number of samples to generate in a batch.
 gen_batch_size=100
-piece_length=16
-strategy=igibbs
+piece_length=32
+strategy=agibbs
 tfsample=true
 
 # Run command.
@@ -39,7 +39,7 @@ python coconet_sample.py \
 --checkpoint="$checkpoint" \
 --gen_batch_size=$gen_batch_size \
 --piece_length=$piece_length \
---temperature=0.99 \
+--temperature=0.05 \
 --strategy=$strategy \
 --tfsample=$tfsample \
 --generation_output_dir=$generation_output_dir \
