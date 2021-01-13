@@ -29,7 +29,7 @@ generation_output_dir=./GeneratedMidis/
 
 # Generation parameters.
 # Number of samples to generate in a batch.
-gen_batch_size=5
+gen_batch_size=100
 piece_length=16
 strategy=igibbs
 tfsample=true

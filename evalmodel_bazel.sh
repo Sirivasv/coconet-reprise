@@ -39,13 +39,13 @@ data_dir=./data/
 # WRKSTATION
 # eval_logdir=/home/sirivasv/Documents/projects/magenta/magenta/models/coconet/eval_logdir/
 # LAP
-eval_logdir=/home/sirivasv/Documents/Projects/magenta/magenta/models/coconet/eval_logdir/
+eval_logdir=./eval_logdir/
 
 # Evaluation settings.
 fold=valid
 fold_index=1  # Optionally can specify index of specific piece to be evaluated.
 unit=frame
-chronological=True
+chronological=False
 ensemble_size=5  # Number of different orderings to average.
 
 # Run command.
