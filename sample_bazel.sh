@@ -39,7 +39,7 @@ python coconet_sample.py \
 --checkpoint="$checkpoint" \
 --gen_batch_size=$gen_batch_size \
 --piece_length=$piece_length \
---temperature=0.05 \
+--temperature=0.5 \
 --strategy=$strategy \
 --tfsample=$tfsample \
 --generation_output_dir=$generation_output_dir \
