@@ -42,7 +42,7 @@ data_dir=./data/
 eval_logdir=./eval_logdir/
 
 # Evaluation settings.
-fold=valid
+fold=test
 fold_index=1  # Optionally can specify index of specific piece to be evaluated.
 unit=frame
 chronological=False
