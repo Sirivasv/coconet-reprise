@@ -87,7 +87,9 @@ class Dataset(lib_util.Factory):
     """
     if sequences is None:
       sequences = self.get_sequences()
-    return list(map(self.encoder.encode, sequences))
+    sequence_list = list(sequences)
+    sequence_list.sort(key=len)
+    return sequence_list
 
   def get_featuremaps(self, sequences=None):
     """Turn sequences into features for training/evaluation.
