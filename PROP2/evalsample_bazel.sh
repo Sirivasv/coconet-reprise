@@ -25,14 +25,14 @@ set -e
 checkpoint=./logs/'dilated-9-64_bs=10,corrupt=0.5,len=32,lr=0.0625,mm=orderless,nreg_conv=2,num_i=4,n_pch=46,mask_only=False,quant=0.125,rescale=True,depth_mul=1,sep=True,res=True,sconv=True,soft=True'/
 
 # Change this to the path of samples to be evaluated.
-sample_file=./GeneratedMidis/sample_20210119141427_agibbs_dilated_T0.5_l32_2.07min/generated_result.npy
+sample_file=./GeneratedMidis/sample_20210205183919_igibbs_dilated_T0.99_l32_4.82min/generated_result.npy
 # Change this to where evaluation results are stored.
 eval_logdir="eval_logdir"
 
 # Evaluation settings.
 #fold_index=  # Optionally can specify index of specific piece to be evaluated.
 unit=frame
-chronological=True
+chronological=False
 ensemble_size=5  # Number of different orderings to average.
 
 
